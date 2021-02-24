@@ -1,0 +1,98 @@
+// Html Styles
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+// body Styles
+body {
+    font-size: 1.6rem;
+    background-color: $bg-white-full;
+    font-family: 'Poppins', sans-serif;
+}
+
+// Reset Code
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::after,
+ ::before {
+    box-sizing: border-box;
+}
+
+// Font Size 
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+h3 {
+    font-size: 2.8rem;
+}
+
+h4 {
+    font-size: 2.4rem;
+}
+
+h5 {
+    font-size: 2rem;
+}
+
+h6 {
+    font-size: 1.6rem;
+}
+
+// Make unordered & ordered list margin & padding reset
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+// Make all heading margin & padding reset include margin button 12px
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1.2rem;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+    line-height: 3rem;
+    margin-bottom: 3.2rem;
+}
+
+label,
+input,
+textarea {
+    font-family: 'Merriweather', serif;
+}
+
+// Make Anchor Tag reset(underline & color)
+a {
+    text-decoration: none;
+    color: $text-color-0;
+}
+
+a:link {
+    color: $text-color-0;
+}
+
+// Make image default size
+img {
+    width: $full-width;
+    vertical-align: middle;
+}

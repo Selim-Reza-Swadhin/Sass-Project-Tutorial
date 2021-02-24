@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sass Project Tutorial</title>
+
+    <!-- External Link -->
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <!-- Font awesome link -->
+    <script src="https://kit.fontawesome.com/9501597931.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<!-- Header Section(Navigation Bar & Brand) End -->
+<header class="nav-bar">
+    <div class="container row">
+        <div class="nav-brand col-3">
+            <a href="index.html">SR Swadhin</a>
+        </div>
+        <ul class="nav col-2 flex justify-content-right">
+            <li class="nav-item"><a href="#home" class="nav-link active">home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">about</a></li>
+            <li class="nav-item"><a href="#portfolio" class="nav-link">portfolio</a></li>
+            <li class="nav-item"><a href="#testimonial" class="nav-link">testimonial</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">contact</a></li>
+        </ul>
+        <div class="hamburger-menu">
+            <span><i class="fas fa-bars"></i></span>
+        </div>
+    </div>
+</header>
+<!-- Header Section(Navigation Bar & Brand) End -->
+
+<!-- Home Section Start -->
+<section class="home-section" id="home">
+    <div class="container row align-items-center">
+        <div class="col-2 home-text">
+            <p>Hello</p>
+            <h2>I'm <span> SR Swadhin </span></h2>
+            <h1>Web Designer & Developer</h1>
+            <a href="#about" class="btn btn-about">More About Me</a>
+        </div>
+        <div class="col-2 home-img">
+            <div class="img-box">
+                <img src="src/img/laptop-home.jpg" alt="Laptop">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Home Section End -->
+
+<!-- About Section Start -->
+<section class="about-section section" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2 data-heading="main-info">About Me</h2>
+            </div>
+        </div>
+        <div class="row about-me">
+            <div class="col-2 about-img">
+                <div class="img-box">
+                    <img src="src/img/selim.jpg" alt="Selim Reza Swadhin">
+                    <div class="social-media flex">
+                        <a href="https://www.instagram.com/" target="_blank"
+                           class="social-link instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/SrSwadhin" target="_blank" class="social-link twitter"><i
+                                class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/" target="_blank"
+                           class="social-link linkedin-in"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Selim-Reza-Swadhin" target="_blank" class="social-link github"><i
+                                class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2 about-description">
+                <p>Hey! I'm <span>Selim Reza Swadhin.</span> I'm a Front & Back-End Developer. I have been 3 years
+                    experiences this area. I can build a website front-end with HTML, CSS, SCSS, JavaScript, jquery &
+                    bootstrap. </p>
+                <p>If you have any special requirements like only HTML, SCSS & Pure JavaScript I also can do it or You
+                    wanna make a website only using HTML, CSS bootstrap & jquery. </p>
+                <p>Back-End PHP, SQL, MySQL, Wordpress. I also make it. </p>
+                <p>You can see my portfolio in the portfolio section for your website. After seeing my portfolio you can
+                    contact me or you can order me direct with your requirement. The order button is the right corner of
+                    this page. So let's begin. </p>
+                <p>I have also client feedback. You can check this section what client say about me?</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About Section End -->
+
+<!-- Portfolio Section Start -->
+<section class="portfolio-section section" id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2 data-heading="portfolio">Recent Projects</h2>
+            </div>
+        </div>
+        <!-- portfolio Filter Start -->
+        <div class="row">
+            <div class="portfolio-filter">
+                <span class="filter-item active" data-target="all">All</span>
+                <span class="filter-item" data-target="web-application">Web application</span>
+                <span class="filter-item" data-target="photoshop">photoshop</span>
+                <span class="filter-item" data-target="mobile-app">mobile app</span>
+                <span class="filter-item" data-target="e-commerce">e-commerce</span>
+            </div>
+        </div>
+        <!-- portfolio Filter End -->
+
+
+        <!-- portfolio items start -->
+        <div class="row portfolio-items">
+
+            <div class="portfolio-item col-3" data-category="web-application">
+                <div class="portfolio-item-inner">
+                    <div class="portfolio-img">
+                        <img src="src/img/portfolio/thumbnail/portfolio-1.jpg" alt="Project Picture"
+                             data-screenshot="src/img/portfolio/portfolio-1.png, src/img/portfolio/portfolio-2.png, src/img/portfolio/portfolio-3.png, src/img/portfolio/portfolio-4.png">
+
+                        <!-- Project Btn -->
+                        <span class="project-btn">View Project</span>
+                    </div>
+                    <p class="portfolio-item-title">Academic Website</p>
+
+                    <!-- portfolio item details start -->
+                    <div class="portfolio-item-details">
+
+
+                        <div class="row">
+                            <div class="description">
+                                <h3>Project Brief: </h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis dignissimos, et
+                                    odit quaerat provident eos deleniti cum ex inventore, corrupti accusantium enim
+                                    necessitatibus nulla beatae illo molestiae a cumque adipisci
+                                    commodi error dolores nesciunt! Delectus consequatur mollitia odit officia
+                                    voluptatibus! Officia doloribus consectetur distinctio repudiandae explicabo ut
+                                    ipsum molestias temporibus!</p>
+                            </div>
+                            <div class="info">
+                                <h3>Project Info</h3>
+                                <ul>
+                                    <li>Date - <span>2021</span></li>
+                                    <li>Client - <span>Jhon Kerry</span></li>
+                                    <li>Tools - <span>html5, css3, JavaScript</span></li>
+                                    <li>Web - <span><a href="https://web.facebook.com/srswadhin">সেলিম রেজা স্বাধীন</a></span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- portfolio item details End -->
+                </div>
+            </div>
+
+
+            <div class="portfolio-item col-3" data-category="e-commerce">
+                <div class="portfolio-item-inner">
+                    <div class="portfolio-img">
+                        <img src="src/img/portfolio/thumbnail/portfolio-2.jpg" alt="Project Picture"
+                             data-screenshot="src/img/portfolio/portfolio-2.png, src/img/portfolio/portfolio-1.png, src/img/portfolio/portfolio-3.png, src/img/portfolio/portfolio-4.png">
+
+                        <!-- Project Btn -->
+                        <span class="project-btn">View Project</span>
+                    </div>
+                    <p class="portfolio-item-title">Restaurant Website</p>
+
+                    <!-- portfolio item details start -->
+                    <div class="portfolio-item-details">
+                        <div class="row">
+                            <div class="description">
+                                <h3>Project Brief: </h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis dignissimos, et
+                                    odit quaerat provident eos deleniti cum ex inventore, corrupti accusantium enim
+                                    necessitatibus nulla beatae illo molestiae a cumque adipisci
+                                    commodi error dolores nesciunt! Delectus consequatur mollitia odit officia
+                                    voluptatibus! Officia doloribus consectetur distinctio repudiandae explicabo ut
+                                    ipsum molestias temporibus!</p>
+                            </div>
+                            <div class="info">
+                                <h3>Project Info</h3>
+                                <ul>
+                                    <li>Date - <span>2020</span></li>
+                                    <li>Client - <span>Creme De la Creme</span></li>
+                                    <li>Tools - <span>html, css, JavaScript, jquery</span></li>
+                                    <li>Web - <span><a href="https://web.facebook.com/srswadhin">সেলিম রেজা স্বাধীন</a></span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- portfolio item details End -->
+                </div>
+            </div>
+            <div class="portfolio-item col-3" data-category="photoshop">
+                <div class="portfolio-item-inner">
+                    <div class="portfolio-img">
+                        <img src="src/img/portfolio/thumbnail/portfolio-3.jpg" alt="Project Picture"
+                             data-screenshot="src/img/portfolio/portfolio-3.png, src/img/portfolio/portfolio-1.png, src/img/portfolio/portfolio-2.png, src/img/portfolio/portfolio-4.png">
+
+                        <!-- Project Btn -->
+                        <span class="project-btn">View Project</span>
+                    </div>
+                    <p class="portfolio-item-title">Business Website</p>
+
+                    <!-- portfolio item details start -->
+                    <div class="portfolio-item-details">
+                        <div class="row">
+                            <div class="description">
+                                <h3>Project Brief: </h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis dignissimos, et
+                                    odit quaerat provident eos deleniti cum ex inventore, corrupti accusantium enim
+                                    necessitatibus nulla beatae illo molestiae a cumque adipisci
+                                    commodi error dolores nesciunt! Delectus consequatur mollitia odit officia
+                                    voluptatibus! Officia doloribus consectetur distinctio repudiandae explicabo ut
+                                    ipsum molestias temporibus!</p>
+                            </div>
+                            <div class="info">
+                                <h3>Project Info</h3>
+                                <ul>
+                                    <li>Date - <span>2020</span></li>
+                                    <li>Client - <span>IOM Ltd</span></li>
+                                    <li>Tools - <span>html5, scss, JavaScript, jquery</span></li>
+                                    <li>Web - <span><a href="https://web.facebook.com/srswadhin">সেলিম রেজা স্বাধীন</a></span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- portfolio item details End -->
+                </div>
+            </div>
+            <div class="portfolio-item col-3" data-category="mobile-app">
+                <div class="portfolio-item-inner">
+                    <div class="portfolio-img">
+                        <img src="src/img/portfolio/thumbnail/portfolio-4.jpg" alt="Project Picture"
+                             data-screenshot="src/img/portfolio/portfolio-4.png, src/img/portfolio/portfolio-1.png, src/img/portfolio/portfolio-3.png, src/img/portfolio/portfolio-2.png">
+
+                        <!-- Project Btn -->
+                        <span class="project-btn">View Project</span>
+                    </div>
+                    <p class="portfolio-item-title">Tab System</p>
+
+                    <!-- portfolio item details start -->
+                    <div class="portfolio-item-details">
+                        <div class="row">
+                            <div class="description">
+                                <h3>Project Brief: </h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis dignissimos, et
+                                    odit quaerat provident eos deleniti cum ex inventore, corrupti accusantium enim
+                                    necessitatibus nulla beatae illo molestiae a cumque adipisci
+                                    commodi error dolores nesciunt! Delectus consequatur mollitia odit officia
+                                    voluptatibus! Officia doloribus consectetur distinctio repudiandae explicabo ut
+                                    ipsum molestias temporibus!</p>
+                            </div>
+                            <div class="info">
+                                <h3>Project Info</h3>
+                                <ul>
+                                    <li>Date - <span>2021</span></li>
+                                    <li>Client - <span>Alina Bella</span></li>
+                                    <li>Tools - <span>html5, scss, jquery</span></li>
+                                    <li>Web - <span><a href="https://web.facebook.com/srswadhin">সেলিম রেজা স্বাধীন</a></span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- portfolio item details End -->
+                </div>
+            </div>
+            <div class="portfolio-item col-3" data-category="photoshop">
+                <div class="portfolio-item-inner">
+                    <div class="portfolio-img">
+                        <img src="src/img/portfolio/thumbnail/portfolio-3.jpg" alt="Project Picture"
+                             data-screenshot="src/img/portfolio/portfolio-3.png, src/img/portfolio/portfolio-1.png, src/img/portfolio/portfolio-4.png, src/img/portfolio/portfolio-2.png">
+
+                        <!-- Project Btn -->
+                        <span class="project-btn">View Project</span>
+                    </div>
+                    <p class="portfolio-item-title">Business Website</p>
+
+                    <!-- portfolio item details start -->
+                    <div class="portfolio-item-details">
+                        <div class="row">
+                            <div class="description">
+                                <h3>Project Brief: </h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis dignissimos, et
+                                    odit quaerat provident eos deleniti cum ex inventore, corrupti accusantium enim
+                                    necessitatibus nulla beatae illo molestiae a cumque adipisci
+                                    commodi error dolores nesciunt! Delectus consequatur mollitia odit officia
+                                    voluptatibus! Officia doloribus consectetur distinctio repudiandae explicabo ut
+                                    ipsum molestias temporibus!</p>
+                            </div>
+                            <div class="info">
+                                <h3>Project Info</h3>
+                                <ul>
+                                    <li>Date - <span>2020</span></li>
+                                    <li>Client - <span>IOM Ltd</span></li>
+                                    <li>Tools - <span>html5, css3, JavaScript, jquery, Sass</span></li>
+                                    <li>Web - <span><a href="https://web.facebook.com/srswadhin">সেলিম রেজা স্বাধীন</a></span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- portfolio item details End -->
+                </div>
+            </div>
+            <div class="portfolio-item col-3" data-category="e-commerce">
+                <div class="portfolio-item-inner">
+                    <div class="portfolio-img">
+                        <img src="src/img/portfolio/thumbnail/portfolio-2.jpg" alt="Project Picture"
+                             data-screenshot="src/img/portfolio/portfolio-2.png, src/img/portfolio/portfolio-1.png, src/img/portfolio/portfolio-3.png, src/img/portfolio/portfolio-4.png">
+
+                        <!-- Project Btn -->
+                        <span class="project-btn">View Project</span>
+                    </div>
+                    <p class="portfolio-item-title">Restaurant Website</p>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio items End -->
+    </div>
+</section>
+<!-- Portfolio Section End -->
+
+<!-- Testimonial section Start -->
+<section class="testimonial-section section" id="testimonial">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2 data-heading="testimonial">What Client Say?</h2>
+            </div>
+        </div>
+        <div class="row testimonial-items">
+            <div class="col-3 testimonial-item">
+                <div class="testimonial-inner">
+                    <i class="fas fa-quote-left quote"></i>
+                    <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab tempore, iusto
+                        eaque optio libero earum ratione cupiditate voluptas doloribus voluptates.</p>
+                    <div class="client-info text-center">
+                        <div class="client-img">
+                            <img src="src/img/client-1.png" alt="Neil Wilford">
+                        </div>
+                        <h4 class="client-name">Neil Wilford</h4>
+                        <div class="client-social-link flex">
+                            <a href="#" target="_blank" class="social-link facebook"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a href="#" target="_blank" class="social-link twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" target="_blank" class="social-link linkedin-in"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 testimonial-item">
+                <div class="testimonial-inner">
+                    <i class="fas fa-quote-left quote"></i>
+                    <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab tempore, iusto
+                        eaque optio libero earum ratione cupiditate voluptas doloribus voluptates.</p>
+                    <div class="client-info text-center">
+                        <div class="client-img">
+                            <img src="src/img/client-2.png" alt="Neil Wilford">
+                        </div>
+                        <h4 class="client-name">Lance Jarvis</h4>
+                        <div class="client-social-link flex">
+                            <a href="#" target="_blank" class="social-link facebook"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a href="#" target="_blank" class="social-link twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" target="_blank" class="social-link linkedin-in"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 testimonial-item">
+                <div class="testimonial-inner">
+                    <i class="fas fa-quote-left quote"></i>
+                    <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab tempore, iusto
+                        eaque optio libero earum ratione cupiditate voluptas doloribus voluptates.</p>
+                    <div class="client-info text-center">
+                        <div class="client-img">
+                            <img src="src/img/client-3.png" alt="Neil Wilford">
+                        </div>
+                        <h4 class="client-name">Steve Jobs</h4>
+                        <div class="client-social-link flex">
+                            <a href="#" target="_blank" class="social-link facebook"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a href="#" target="_blank" class="social-link twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" target="_blank" class="social-link linkedin-in"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Testimonial section End -->
+
+<!-- Contact Section Start -->
+<section class="contact-section section" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2 data-heading="Contact">Get in touch</h2>
+            </div>
+        </div>
+        <form>
+            <div class="row">
+                <div class="col-2 form-left">
+                    <div class="contact-img text-center">
+                        <div class="img-box">
+                            <i class="fas fa-envelope-open-text"></i>
+                        </div>
+                        <p>If you have any question or just want to get in touch, use the form. We look forward to
+                            hearing from you!</p>
+                    </div>
+                </div>
+                <div class="col-2 form-right relative">
+                    <div class="input-group name">
+                        <input type="text" name="Name" id="name" class="form-control" placeholder="Your Name">
+                        <span class="error"></span>
+                    </div>
+                    <div class="input-group email">
+                        <input type="email" name="email" id="email" class="form-control" placeholder="Your Email">
+                        <span class="error"></span>
+                    </div>
+                    <div class="input-group message">
+                        <textarea name="Message" id="message" cols="30" rows="10" class="form-control"
+                                  placeholder="Message"></textarea>
+                        <span class="error"></span>
+                    </div>
+                    <div class="input-group text-right">
+                        <input type="submit" value="Send" id="submit" class="btn btn-submit">
+                    </div>
+                    <div class="success hide">
+                        <div class="success-inner">
+                            <p>We received you message. <span class="check"><i class="fas fa-check"></i></span></p>
+                            <!-- <div class="btn-contact-success">ok</div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+<!-- Contact Section End -->
+
+<!-- footer Section Start -->
+<section class="footer-section section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="copyright">
+                <p>Copyright &copy; 2021 - সেলিম রেজা স্বাধীন ।</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- footer Section End -->
+
+
+<!-- Portfolio Popup Start -->
+<div class="pp portfolio-popup">
+    <div class="pp-details">
+        <div class="pp-details-inner">
+            <div class="pp-title">
+                <h2>Academic Website</h2>
+                <p>Category - <span class="pp-project-category"> Web Application</span></p>
+            </div>
+            <div class="pp-project-details">
+                <div class="row">
+                    <div class="description">
+                        <h3>Project Brief: </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis dignissimos, et odit
+                            quaerat provident eos deleniti cum ex inventore, corrupti accusantium enim necessitatibus
+                            nulla beatae illo molestiae a cumque adipisci
+                            commodi error dolores nesciunt! Delectus consequatur mollitia odit officia voluptatibus!
+                            Officia doloribus consectetur distinctio repudiandae explicabo ut ipsum molestias
+                            temporibus!</p>
+                    </div>
+                    <div class="info">
+                        <h3>Project Info</h3>
+                        <ul>
+                            <li>Date - <span>2021</span></li>
+                            <li>Client - <span>Aman Ullah</span></li>
+                            <li>Tools - <span>html5, css3, JavaScript</span></li>
+                            <li>Web - <span><a href="#">www.facebook.com</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="separator"></div>
+
+    <div class="pp-main">
+        <div class="pp-main-inner">
+            <div class="pp-details-btn btn">project details <i class="fas fa-plus"></i></div>
+            <div class="pp-close-btn btn"><i class="fas fa-times"></i></div>
+            <img src="src/img/portfolio/portfolio-3.png" alt="img" class="pp-img">
+            <div class="pp-counter">1 of 6</div>
+        </div>
+
+        <div class="pp-loader">
+            <div></div>
+        </div>
+        <!-- pp Navigation -->
+        <div class="pp-prev"><i class="fas fa-angle-left"></i></div>
+        <div class="pp-next"><i class="fas fa-angle-right"></i></div>
+    </div>
+</div>
+<!-- Portfolio Popup End -->
+
+
+<!-- External JavaScript -->
+<script src="src/js/script.js"></script>
+</body>
+
+</html>
